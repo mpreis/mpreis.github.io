@@ -2,15 +2,11 @@
 <html lang="en">
   <head>
     <title>mario.preishuber</title>
-
     <link rel="shortcut icon" href="./imgs/favicon19.png">
-
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/customizations.css">
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="./js/jquery.min.js"></script>
-		<script type="text/javascript" src="./js/bootstrap.min.js"></script>
 
   </head>
   <body>
@@ -30,12 +26,18 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">CV <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">CV<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="cv.pdf"><span class="fa fa-file-pdf-o"></span> PDF</a></li>
+                <li><a href="cv.pdf" target="_blank"><span class="fa fa-file-pdf-o"></span> PDF</a></li>
                 <li><a href="#cv_html"><span class="fa fa-globe"></span> HTML</a></li>
+            </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">ACDC4GC</a></li>
             </ul>
             </li>
           </ul>
@@ -43,54 +45,89 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-    <div class="row">
-      <div class="col-md-1">&nbsp;</div>
-      <div class="container col-md-10">
+    <div class="container">
+      <section id="me">
+        <!-- <div class="page-header">
+          <h1>Mario Preishuber <small>master student</small></h1>
+        </div> -->
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row well me">
+              <div class="page-header">
+                <h1><span class="fa fa-info-circle"></span>&nbsp;Contact</small></h1>
+              </div>
+              <div class="col-md-5">
+                <img src="./imgs/me.jpg" class="img-responsive img-thumbnail" />
+                <br />
 
-        <section id="me">
+              </div>
+
+              <div class="col-md-7 text-left">
+                <address>
+                  <a href="http://www.cs.uni-salzburg.at">Department of Computer Sciences</a><br />
+                  <a href="http://www.uni-salzburg.at">University of Salzburg</a><br />
+                  Jakob-Haringer-Str. 2<br />
+                  5020 Salzburg<br />
+                  Austria<br />
+                  <br />
+
+                  <span class="fa fa-envelope"></span>&nbsp;mario.preishuber@cs.uni-salzburg.at<br />
+                  <span class="fa fa-phone"></span>&nbsp;+43 650 6733007<br />
+                </address>
+
+                <iframe src="http://ghbtns.com/github-btn.html?user=mpreis&repo=mpreis.github.io&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="65" height="20"></iframe>
+                <iframe src="http://ghbtns.com/github-btn.html?user=mpreis&repo=mpreis.github.io&type=follow" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+
+                <!-- <h1 class="text-center">
+                  <a href="https://plus.google.com/+MarioPreishuber" target="_blank"><span class="fa fa-google-plus"></span></a>
+                  <a href="https://www.facebook.com/mario.preishuber" target="_blank"><span class="fa fa-facebook"></span></a>
+                  <a href="https://twitter.com/mpreishuber" target="_blank"><span class="fa fa-twitter"></span></a>
+                  <a href="https://github.com/mpreis" target="_blank"><span class="fa fa-github"></span></a>
+                </h1> -->
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-6">
+            <div class="row well">
+              <div class="page-header">
+                <h1>
+                  Welcome!
+                 </h1>
+              </div>
+              My name is Mario Preishuber. I am a master's student at the
+              <a href="http://www.cosy.sbg.ac.at" target="_blank">Department of Computer Science</a> at the
+              <a href="http://www.uni-salzburg.at" target="_blank">Universtity of Salzburg</a>.
+              <br />
+              <br />
+              I am especially interested in:
+              <ul>
+                <li>garbage collection</li>
+                <li>memory management</li>
+                <li>database tuning</li>
+                <li>car racing</li>
+                <li>meet friends</li>
+              <ul>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section id="cv_html">
           <div class="page-header">
-            <h1>Mario Preishuber <small>master student</small></h1>
+            <h1>Curriculum Vit&aelig;</h1>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>Education</h2>
+            </div>
           </div>
           <div class="row">
-
-            <div class="col-sm-12 col-md-8 col-lg-6 text-right">
-              <address>
-                <a href="http://www.cs.uni-salzburg.at">Department of Computer Sciences</a><br />
-                <a href="http://www.uni-salzburg.at">University of Salzburg</a><br />
-                Jakob-Haringer-Str. 2<br />
-                5020 Salzburg<br />
-                Austria<br />
-                <br />
-
-                mario.preishuber@cs.uni-salzburg.at &nbsp;<span class="fa fa-envelope"></span><br />
-                +43 650 6733007 &nbsp;<span class="fa fa-phone"></span><br />
-                <br />
-
-                <h1>
-                  <a href="https://plus.google.com/+MarioPreishuber"><span class="fa fa-google-plus"></span></a>
-                  <a href="https://www.facebook.com/mario.preishuber"><span class="fa fa-facebook"></span></a>
-                  <a href="https://github.com/mpreis"><span class="fa fa-github"></span></a>
-                  <a href="https://twitter.com/mpreishuber"><span class="fa fa-twitter"></span></a>
-                </h1>
-              </address>
-            </div>
-
-            <div class="col-sm-6 col-md-4 col-lg-3">
-              <img src="./imgs/me.jpg" class="img-responsive" />
-            </div>
-
-          </div>
-
-        </section>
-
-
-        <section id="cv_html">
-            <div class="page-header">
-              <h1>Curriculum Vitae</h1>
-            </div>
-
-            <div class="row text-center"><h2>Education</h2></div>
-            <div class="row">
+            <div class="col-md-12">
               <dl class="dl-horizontal">
                 <dt>Since<br />2014</dt>
                 <dd>
@@ -102,6 +139,7 @@
 
               <dl class="dl-horizontal">
                 <dt>2014<br />2011</dt>
+                <!-- <dt>2011 to 2014</dt> -->
                 <dd>
                   <b>B.Eng.</b>,
                   <i>University of Salzburg</i>, Salzburg, Austria<br />
@@ -113,6 +151,7 @@
 
               <dl class="dl-horizontal">
                 <dt>2009<br />2004</dt>
+                <!-- <dt>2004 to 2009</dt> -->
                 <dd>
                   <b>Diploma thesis</b>,
                   <i>(Technical) high school</i>, Braunau am Inn, Austria<br />
@@ -126,12 +165,19 @@
                 <dd>Design and communication technologie</dd>
               </dl>
             </div>
+          </div>
 
 
-            <div class="row text-center"><h2>Employment</h2></div>
-            <div class="row">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>Employment</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
               <dl class="dl-horizontal">
                 <dt>Sep 2011<br />May 2010</dt>
+                <!-- <dt>May 2010 to Sep 2011</dt> -->
                 <dd>
                     <b>DVT-Daten-Verarbeitung-Tirol GmbH</b>,<br />
                     <i>Software Engineer</i>, Innsbruck, Austria<br />
@@ -139,17 +185,24 @@
                 </dd>
               </dl>
             </div>
+          </div>
 
-            <div class="row text-center"><h2>Experience</h2></div>
-            <div class="row">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>Experience</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
               <dl class="dl-horizontal">
                 <dt>Aug 2014<br />Aug 2013</dt>
+                <!-- <dt>Aug 2013 to Aug 2014</dt> -->
                 <dd>
                     <b>ACDC4JS, Research Group of Professor Christoph Kirsch</b>,<br />
                     <i>Project Staff</i>, Salzburg, Austria<br />
                     The project is done in cooperation with Google Munich.
                     The purpose of ACDC4JS is to analyze the efficiency of the garbage collector
-                    in JavaScript virtual machines, especially Google’s V8. I am working on research
+                    in JavaScript virtual machines, especially Google's V8. I am working on research
                     and development of measurement tools. The analyses of heap models,
                     using automated user interactions is also part of my work.
                 </dd>
@@ -157,6 +210,7 @@
 
               <dl class="dl-horizontal">
                 <dt>June 2013<br />Feb 2013</dt>
+                <!-- <dt>Feb 2013 to June 2013</dt> -->
                 <dd>
                     <b>PCCC, Compiler Construction Class, University of Salzburg</b>,<br />
                     <i>Student</i>, Salzburg, Austria<br />
@@ -168,8 +222,9 @@
 
               <dl class="dl-horizontal">
                 <dt>Sep 2012<br />Aug 2012</dt>
+                <!-- <dt>Aug 2012 to Sep 2012</dt> -->
                 <dd>
-                    <b>SIGMATEK GmbH & Co KG</b>,<br />
+                    <b>SIGMATEK GmbH &amp; Co KG</b>,<br />
                     <i>Summer Intern</i>, Lamprechtshausen, Austria<br />
                     I developed a Wireshark plugin for the Nested Varan Frames protocol.
                     I extended an existing NSIS installer. Used programming languages were C and C++.
@@ -178,6 +233,7 @@
 
               <dl class="dl-horizontal">
                 <dt>Aug 2008<br />July 2008</dt>
+                <!-- <dt>July 2008 to Aug 2008</dt> -->
                 <dd>
                     <b>ppedv AG</b>,<br />
                     <i>Summer Intern</i>, Burghausen, Germany<br />
@@ -186,24 +242,36 @@
                 </dd>
               </dl>
             </div>
+          </div>
 
 
-            <div class="row text-center"><h2>Publications</h2></div>
-            <div class="row">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>Publications</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
               <dl class="dl-horizontal">
                 <dt>Conference papers</dt>
                 <dd>
                     Coming soon!
                 </dd>
               </dl>
-            </div>
+          </div>
+          </div>
 
-            <div class="row text-center"><h2>Awards</h2></div>
-            <div class="row">
+          <div class="row text-center">
+            <div class="col-md-12">
+              <h2>Awards</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
               <dl class="dl-horizontal">
                 <dt>2009</dt>
                 <dd>
-                    <b>Innovation & Wirtschaft in O&Ouml;</b>,<br />
+                    <b>Innovation &amp; Wirtschaft in O&Ouml;</b>,<br />
                     <i>O&Ouml;. Technologie- und Marketinggesellschaft m.b.H</i><br />
                     With the SEER project I won the first price in the category IT with my college.
                     A competition for innovative high school students, supported by the government of Upper Austria.
@@ -211,29 +279,23 @@
               </dl>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-      </div>
-
-      <div class="col-md-1">&nbsp;</div>
+      <footer>
+        <p>
+          <small>
+            &nbsp; &copy; Mario Preishuber 2014. Website built with
+            <a href="http://getbootstrap.com/" />Bootstrap</a> and
+            <a href="http://jquery.com/">jQuery</a>.
+          </small>
+        </p>
+      </footer>
     </div>
 
-    <footer>
-      <p>
-        @ Mario Preishuber 2014. Website built with <a href="http://getbootstrap.com/" />Bootstrap</a> and <a href="http://jquery.com/">jQuery</a>.
-      </p>
+
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
 
   </body>
 </html>
-
-<!--
-
-<dl class="dl-horizontal">
-  <dt><br /></dt>
-  <dd>
-      <b></b>,<br />
-      <i></i>, <br />
-  </dd>
-</dl>
-
--->
