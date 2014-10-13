@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <title>mario.preishuber</title>
-    <link rel="shortcut icon" href="./imgs/favicon19.png">
+    <link rel="shortcut icon" href="./imgs/favicon.png">
+
+    <meta name="author" content="Mario Preishuber">
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/customizations.css">
@@ -26,7 +28,17 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-left">
+            <!-- <li><a href="#education">Education</a></li>
+            <li><a href="#employment">Employment</a></li>
+            <li><a href="#experience">Experience</a></li> -->
+            <!-- <li><a href="#awards">Awards</a></li> -->
+          </ul>
+
+
           <ul class="nav navbar-nav navbar-right">
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="mp.bib">BibTex</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">CV<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
@@ -116,12 +128,13 @@
 
       </section>
 
+
       <section id="cv_html">
           <div class="page-header">
             <h1>Curriculum Vit&aelig;</h1>
           </div>
 
-          <div class="row">
+          <div id="education" class="row dummy">
             <div class="col-md-12 text-center">
               <h2>Education</h2>
             </div>
@@ -168,8 +181,8 @@
           </div>
 
 
-          <div class="row">
-            <div class="col-md-12 text-center">
+          <div class="row dummy">
+            <div id="employment" class="col-md-12 text-center">
               <h2>Employment</h2>
             </div>
           </div>
@@ -187,8 +200,8 @@
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-md-12 text-center">
+          <div class="row dummy">
+            <div id="experience" class="col-md-12 text-center">
               <h2>Experience</h2>
             </div>
           </div>
@@ -245,8 +258,8 @@
           </div>
 
 
-          <div class="row">
-            <div class="col-md-12 text-center">
+          <div class="row dummy">
+            <div id="publications" class="col-md-12 text-center">
               <h2>Publications</h2>
             </div>
           </div>
@@ -255,14 +268,20 @@
               <dl class="dl-horizontal">
                 <dt>Conference papers</dt>
                 <dd>
-                    Coming soon!
+                  <p>
+                    <a name="DLS2014"></a>
+                    M. Aigner and T. H&uuml;tter and C. M. Kirsch and A. Miller and H. Payer and M. Preishuber.
+                    ACDC-JS: Explorative Benchmarking of JavaScript Memory Management.
+                    In <em>Proc. Dynamic Languages Symposium</em>,
+                    DLS '14. ACM, October 2014. [<a href="mp.bib">bib</a>|<a href="#">.pdf</a>]
+                  </p>
                 </dd>
               </dl>
           </div>
           </div>
 
-          <div class="row text-center">
-            <div class="col-md-12">
+          <div class="row dummy">
+            <div id="awards" class="col-md-12 text-center">
               <h2>Awards</h2>
             </div>
           </div>
@@ -282,16 +301,18 @@
         </div>
       </section>
 
+
       <footer>
         <p>
           <small>
-            &nbsp; &copy; Mario Preishuber 2014. Website built with
+            &nbsp; &copy; <a href="https://plus.google.com/+MarioPreishuber?rel=author">Mario Preishuber</a> 2014. Website built with
             <a href="http://getbootstrap.com/" />Bootstrap</a> and
             <a href="http://jquery.com/">jQuery</a>.
           </small>
         </p>
       </footer>
-    </div>
+      </div>
+
 
 
     <script type="text/javascript" src="./js/jquery.min.js"></script>
