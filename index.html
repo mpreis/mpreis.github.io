@@ -1,8 +1,322 @@
-<html>
-<head>
-<title>my page</title>
-</head>
-<body>
-content is coming soon ...
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>mario.preishuber</title>
+    <link rel="shortcut icon" href="./imgs/favicon.png">
+
+    <meta name="author" content="Mario Preishuber">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/customizations.css">
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">mario.preishuber</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-left">
+            <!-- <li><a href="#education">Education</a></li>
+            <li><a href="#employment">Employment</a></li>
+            <li><a href="#experience">Experience</a></li> -->
+            <!-- <li><a href="#awards">Awards</a></li> -->
+          </ul>
+
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="mp.bib">BibTex</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">CV<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="cv.pdf" target="_blank"><span class="fa fa-file-pdf-o"></span> PDF</a></li>
+                <li><a href="#cv_html"><span class="fa fa-globe"></span> HTML</a></li>
+            </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">ACDC4GC</a></li>
+            </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container">
+      <section id="me">
+        <!-- <div class="page-header">
+          <h1>Mario Preishuber <small>master student</small></h1>
+        </div> -->
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row well me">
+              <div class="page-header">
+                <h1><span class="fa fa-info-circle"></span>&nbsp;Contact</small></h1>
+              </div>
+              <div class="col-md-5">
+                <img src="./imgs/me.jpg" class="img-responsive img-thumbnail" />
+                <br />
+
+              </div>
+
+              <div class="col-md-7 text-left">
+                <address>
+                  <a href="http://www.cs.uni-salzburg.at">Department of Computer Sciences</a><br />
+                  <a href="http://www.uni-salzburg.at">University of Salzburg</a><br />
+                  Jakob-Haringer-Str. 2<br />
+                  5020 Salzburg<br />
+                  Austria<br />
+                  <br />
+
+                  <span class="fa fa-envelope"></span>&nbsp;mario.preishuber@cs.uni-salzburg.at<br />
+                  <span class="fa fa-phone"></span>&nbsp;+43 650 6733007<br />
+                </address>
+
+                <iframe src="http://ghbtns.com/github-btn.html?user=mpreis&repo=mpreis.github.io&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="65" height="20"></iframe>
+                <iframe src="http://ghbtns.com/github-btn.html?user=mpreis&repo=mpreis.github.io&type=follow" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+
+                <!-- <h1 class="text-center">
+                  <a href="https://plus.google.com/+MarioPreishuber" target="_blank"><span class="fa fa-google-plus"></span></a>
+                  <a href="https://www.facebook.com/mario.preishuber" target="_blank"><span class="fa fa-facebook"></span></a>
+                  <a href="https://twitter.com/mpreishuber" target="_blank"><span class="fa fa-twitter"></span></a>
+                  <a href="https://github.com/mpreis" target="_blank"><span class="fa fa-github"></span></a>
+                </h1> -->
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-6">
+            <div class="row well">
+              <div class="page-header">
+                <h1>
+                  Welcome!
+                 </h1>
+              </div>
+              My name is Mario Preishuber. I am a master's student at the
+              <a href="http://www.cosy.sbg.ac.at" target="_blank">Department of Computer Science</a> at the
+              <a href="http://www.uni-salzburg.at" target="_blank">Universtity of Salzburg</a>.
+              <br />
+              <br />
+              I am especially interested in:
+              <ul>
+                <li>garbage collection</li>
+                <li>memory management</li>
+                <li>database tuning</li>
+                <li>car racing</li>
+                <li>meet friends</li>
+              <ul>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+      <section id="cv_html">
+          <div class="page-header">
+            <h1>Curriculum Vit&aelig;</h1>
+          </div>
+
+          <div id="education" class="row dummy">
+            <div class="col-md-12 text-center">
+              <h2>Education</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <dl class="dl-horizontal">
+                <dt>Since<br />2014</dt>
+                <dd>
+                    <b>Master's program</b> <small>in Computer Science</small>, <i>University of Salzburg</i>, Salzburg, Austria<br />
+                    Department of Computer Science<br />
+                    Expected graduation: 2016.
+                </dd>
+              </dl>
+
+              <dl class="dl-horizontal">
+                <dt>2014<br />2011</dt>
+                <!-- <dt>2011 to 2014</dt> -->
+                <dd>
+                  <b>B.Eng.</b>,
+                  <i>University of Salzburg</i>, Salzburg, Austria<br />
+                  Department of Computer Science<br />
+                </dd>
+                <dt class="unbold">Supervisor</dt>
+                <dd>Prof. Christoph Kirsch</dd>
+              </dl>
+
+              <dl class="dl-horizontal">
+                <dt>2009<br />2004</dt>
+                <!-- <dt>2004 to 2009</dt> -->
+                <dd>
+                  <b>Diploma thesis</b>,
+                  <i>(Technical) high school</i>, Braunau am Inn, Austria<br />
+                  My diploma thesis was done in cooperation with Sony (DADC) Austria.
+                  The topic of my thesis is developing software for analyzing and
+                  filtering large volume of email traffic sent to customer support.
+                  I developed the so-called SEER (Sophisticated Embedded Email Responder)
+                  for this purpose with another student.
+                </dd>
+                <dt class="unbold">Major</dt>
+                <dd>Design and communication technologie</dd>
+              </dl>
+            </div>
+          </div>
+
+
+          <div class="row dummy">
+            <div id="employment" class="col-md-12 text-center">
+              <h2>Employment</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <dl class="dl-horizontal">
+                <dt>Sep 2011<br />May 2010</dt>
+                <!-- <dt>May 2010 to Sep 2011</dt> -->
+                <dd>
+                    <b>DVT-Daten-Verarbeitung-Tirol GmbH</b>,<br />
+                    <i>Software Engineer</i>, Innsbruck, Austria<br />
+                    I designed and implemented web applications based on a J2EE architecture and the Apache Struts 2.0 framework.
+                </dd>
+              </dl>
+            </div>
+          </div>
+
+          <div class="row dummy">
+            <div id="experience" class="col-md-12 text-center">
+              <h2>Experience</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <dl class="dl-horizontal">
+                <dt>Aug 2014<br />Aug 2013</dt>
+                <!-- <dt>Aug 2013 to Aug 2014</dt> -->
+                <dd>
+                    <b>ACDC4JS, Research Group of Professor Christoph Kirsch</b>,<br />
+                    <i>Project Staff</i>, Salzburg, Austria<br />
+                    The project is done in cooperation with Google Munich.
+                    The purpose of ACDC4JS is to analyze the efficiency of the garbage collector
+                    in JavaScript virtual machines, especially Google's V8. I am working on research
+                    and development of measurement tools. The analyses of heap models,
+                    using automated user interactions is also part of my work.
+                </dd>
+              </dl>
+
+              <dl class="dl-horizontal">
+                <dt>June 2013<br />Feb 2013</dt>
+                <!-- <dt>Feb 2013 to June 2013</dt> -->
+                <dd>
+                    <b>PCCC, Compiler Construction Class, University of Salzburg</b>,<br />
+                    <i>Student</i>, Salzburg, Austria<br />
+                    The goal is to develop a self-compiling compiler. I have developed a full functionally
+                    compiler in a non-trivial subset of C together with another student. Target is a DLX- based emulator.
+                    My self-compiling compiler is called PCCC and was the best project of the class.
+                </dd>
+              </dl>
+
+              <dl class="dl-horizontal">
+                <dt>Sep 2012<br />Aug 2012</dt>
+                <!-- <dt>Aug 2012 to Sep 2012</dt> -->
+                <dd>
+                    <b>SIGMATEK GmbH &amp; Co KG</b>,<br />
+                    <i>Summer Intern</i>, Lamprechtshausen, Austria<br />
+                    I developed a Wireshark plugin for the Nested Varan Frames protocol.
+                    I extended an existing NSIS installer. Used programming languages were C and C++.
+                </dd>
+              </dl>
+
+              <dl class="dl-horizontal">
+                <dt>Aug 2008<br />July 2008</dt>
+                <!-- <dt>July 2008 to Aug 2008</dt> -->
+                <dd>
+                    <b>ppedv AG</b>,<br />
+                    <i>Summer Intern</i>, Burghausen, Germany<br />
+                    I implemented new features and a new design for the homepage,
+                    blog-engine and forum of the company using .Net technologies.
+                </dd>
+              </dl>
+            </div>
+          </div>
+
+
+          <div class="row dummy">
+            <div id="publications" class="col-md-12 text-center">
+              <h2>Publications</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <dl class="dl-horizontal">
+                <dt>Conference papers</dt>
+                <dd>
+                  <p>
+                    <a name="DLS2014"></a>
+                    M. Aigner and T. H&uuml;tter and C. M. Kirsch and A. Miller and H. Payer and M. Preishuber.
+                    ACDC-JS: Explorative Benchmarking of JavaScript Memory Management.
+                    In <em>Proc. Dynamic Languages Symposium</em>,
+                    DLS '14. ACM, October 2014. [<a href="mp.bib">bib</a>|<a href="#">.pdf</a>]
+                  </p>
+                </dd>
+              </dl>
+          </div>
+          </div>
+
+          <div class="row dummy">
+            <div id="awards" class="col-md-12 text-center">
+              <h2>Awards</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <dl class="dl-horizontal">
+                <dt>2009</dt>
+                <dd>
+                    <b>Innovation &amp; Wirtschaft in O&Ouml;</b>,<br />
+                    <i>O&Ouml;. Technologie- und Marketinggesellschaft m.b.H</i><br />
+                    With the SEER project I won the first price in the category IT with my college.
+                    A competition for innovative high school students, supported by the government of Upper Austria.
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <footer>
+        <p>
+          <small>
+            &nbsp; &copy; <a href="https://plus.google.com/+MarioPreishuber?rel=author">Mario Preishuber</a> 2014. Website built with
+            <a href="http://getbootstrap.com/" />Bootstrap</a> and
+            <a href="http://jquery.com/">jQuery</a>.
+          </small>
+        </p>
+      </footer>
+      </div>
+
+
+
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+
+  </body>
 </html>

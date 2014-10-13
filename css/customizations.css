@@ -1,0 +1,12 @@
+/*
+ * @author: mario preishuber
+ * @created: oct 8th, 2014
+ */
+/* body { padding-top: 70px; } */
+section { padding-top: 70px; }
+.unbold { font-weight:normal; }
+.me {
+  background-color: rgba(127, 173, 2, 0.28);
+  margin: 0;
+}
+.dummy { padding-top: 0px; }
