@@ -8,5 +8,9 @@ section { padding-top: 70px; }
 .me {
   background-color: rgba(127, 173, 2, 0.28);
   margin: 0;
+  margin-bottom:15px;
 }
-.dummy { padding-top: 0px; }
+.well {
+  margin: 0 !important;
+  margin-bottom:15px !important;
+}
