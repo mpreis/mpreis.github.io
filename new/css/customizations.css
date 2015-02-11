@@ -3,26 +3,26 @@
  * @created: oct 8th, 2014
  */
 @charset "utf-8";
-@font-face {
+/*@font-face {
   font-family: font_ligth;
   src: url('../fonts/sansation_light.woff');
 }   
  @font-face {
   font-family: font_bold;
   src: url('../fonts/sansation_bold.woff');
-}
+}*/
 
 html {
   position: relative;
   min-height: 100%;
 }
 body { 
-  font: 14px/20px 'font_ligth';
+  /*font: 14px/20px 'font_ligth';*/
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
 strong {
- font: 14px/20px 'font_bold';
+ /*font: 14px/20px 'font_bold';*/
 }
 
 section { 
