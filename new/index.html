@@ -12,55 +12,41 @@
   </head>
   <body>
 
-     <!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+            data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href=".">Christoph Kirsch</a>
+          <a class="navbar-brand" href="#">mario.preishuber</a>
         </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="publications.pdf">Publications</a></li>
-            <li><a href="publications.html">HTML</a></li>
-            <li><a href="ck.bib">BibTeX</a></li>
-            <li><a href="talks.pdf">Talks</a></li>
-            <li><a href="ck.pdf">CV</a></li>
-            <li><a href="ck.html">Bio</a></li>
-          </ul>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
+            <li><a href="#publications">publications</a></li>
+            <li><a href="data/mp.bib">bibtex</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              Software and Projects <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="https://gist.github.com/ckirsch">Gists</a></li>
-                <li class="divider"></li>
-                <li><a href="http://scalloc.cs.uni-salzburg.at">Scalloc</a></li>
-                <li><a href="http://acdc.cs.uni-salzburg.at">ACDC</a></li>
-                <li><a href="http://libscm.cs.uni-salzburg.at">libscm</a></li>
-                <li><a href="http://scal.cs.uni-salzburg.at">Scal</a></li>
-                <li class="divider"></li>
-                <li><a href="http://cpcc.berkeley.edu">CPCC</a></li>
-                <li class="divider"></li>
-                <li><a href="http://javiator.cs.uni-salzburg.at">JAviator</a></li>
-                <li><a href="http://jarol.cs.uni-salzburg.at">Jarol</a></li>
-                <li class="divider"></li>
-                <li><a href="http://tiptoe.cs.uni-salzburg.at">Tiptoe</a></li>
-                <li><a href="http://tap.cs.uni-salzburg.at">TAP</a></li>
-                <li class="divider"></li>
-                <li><a href="http://htl.cs.uni-salzburg.at">HTL</a></li>
-                <li><a href="http://embedded.eecs.berkeley.edu/giotto/">Giotto</a></li>
-              </ul>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">cv<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="data/cv.pdf" target="_blank"><span class="fa fa-file-pdf-o"></span> PDF</a></li>
+                <li><a href="data/cv.html" target="_blank"><span class="fa fa-file-code-o"></span> HTML</a></li>
+            </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">projects<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://github.com/chromium/ACDC4GC" target="_blank">ACDC4GC</a></li>
+            </ul>
             </li>
           </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
     <div class="container">
       <div class="page-header">
