@@ -9,8 +9,6 @@
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./css/customizations.css">
 
-    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="./js/jquery.min.js"></script>
   </head>
   <body>
 
@@ -279,9 +277,21 @@
         </p> 
       </div>
     </footer>
-    
+ 
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+
+    <!-- navigation -->
+    <script>
+      $(function() {
+        $('.nav a').on('click', function(){
+          if($('.navbar-toggle').css('display') !='none')
+          {
+            $(".navbar-toggle").trigger( "click" );
+          }
+        });
+      });
+    </script>
 
   </body>
 </html>
