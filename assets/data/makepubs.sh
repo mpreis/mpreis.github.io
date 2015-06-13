@@ -4,6 +4,6 @@
 #   _contrib/makepubs.sh
 
 
-TMPDIR=. bibtex2html -nobibsource -noheader -nofooter -nodoc -unicode -dl -nokeys -d -r data/mp.bib
+TMPDIR=. bibtex2html -nobibsource -noheader -nofooter -nodoc -unicode -dl -nokeys -d -r mp.bib
 
-cp data/mp.bib data/mp.bib.txt
+cp mp.bib mp.bib.txt
