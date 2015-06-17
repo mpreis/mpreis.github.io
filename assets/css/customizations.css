@@ -3,26 +3,15 @@
  * @created: oct 8th, 2014
  */
 @charset "utf-8";
-@font-face {
-  font-family: font_ligth;
-  src: url('../fonts/sansation_light.woff');
-}   
- @font-face {
-  font-family: font_bold;
-  src: url('../fonts/sansation_bold.woff');
-}
-
 html {
   position: relative;
   min-height: 100%;
 }
-body { 
-  font: 14px/20px 'font_ligth';
+body {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 300;
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-}
-strong {
- font: 14px/20px 'font_bold';
 }
 
 section { 
@@ -50,22 +39,14 @@ body > .container {
   padding-left: 15px;
 }
 
-
-
-
-
-
-
-
-/*
-.unbold { font-weight:normal; }
-.me {
-  background-color: rgba(127, 173, 2, 0.28);
-  margin: 0;
-  margin-bottom:15px;
+.page-header h1,
+.page-header h4,
+.navbar-brand,
+footer {
+  font-family: 'Indie Flower', cursive;
 }
-.well {
-  margin: 0 !important;
-  margin-bottom:15px !important;
-}*/
 
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a {
+  color:#aaa;
+}
