@@ -43,7 +43,7 @@ body > .container {
 .page-header h4,
 .navbar-brand,
 footer {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Indie Flower', sans-serif;
 }
 
 .navbar-inverse .navbar-brand,
