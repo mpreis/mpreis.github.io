@@ -63,4 +63,5 @@ footer {
 
 .thebibliography {
   @extend .dl-horizontal;
+  background-color: blue;
 }
