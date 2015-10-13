@@ -3,12 +3,22 @@
  * @created: oct 8th, 2014
  */
 @charset "utf-8";
+@font-face {
+    font-family: myMavenPro;
+    src: url(https://mpreis.github.com/assets/fonts/MavenPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: myIndieFlower;
+    src: url(https://mpreis.github.com/assets/fonts/IndieFlower.ttf);
+}
+
 html {
   position: relative;
   min-height: 100%;
 }
 body {
-  font-family: 'Maven Pro', sans-serif;
+  font-family: 'myMavenPro', sans-serif;
   font-weight: 300;
   /* Margin bottom by footer height */
   margin-bottom: 60px;
@@ -43,7 +53,7 @@ body > .container {
 .page-header h4,
 .navbar-brand,
 footer {
-  font-family: 'Indie Flower', sans-serif;
+  font-family: myIndieFlower, sans-serif;
 }
 
 .navbar-inverse .navbar-brand,
