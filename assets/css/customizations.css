@@ -5,12 +5,12 @@
 @charset "utf-8";
 @font-face {
     font-family: myMavenPro;
-    src: url(https://mpreis.github.com/assets/fonts/MavenPro-Regular.ttf);
+    src: url(https://github.com/mpreis/mpreis.github.io/raw/master/assets/fonts/MavenPro-Regular.ttf);
 }
 
 @font-face {
     font-family: myIndieFlower;
-    src: url(https://mpreis.github.com/assets/fonts/IndieFlower.ttf);
+    src: url(https://github.com/mpreis/mpreis.github.io/raw/master/assets/fonts/IndieFlower.ttf);
 }
 
 html {
